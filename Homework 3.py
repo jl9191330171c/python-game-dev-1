@@ -29,7 +29,6 @@ if __name__ == "__main__":
     print("Grouped Words Dictionary:")
     print(grouped_data)
     
-    # Optional: Formatted output for readability
     print("\nBreakdown:")
     for length in sorted(grouped_data.keys()):
         print(f"Length {length}: {grouped_data[length]}")
